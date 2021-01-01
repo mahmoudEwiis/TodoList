@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background: #237EEE url(../images/bg.webp) no-repeat 50% 0;
+    background-size: cover;
+}
+.container{
+    width: 470px;
+    position: absolute;
+    background-color: white;
+    left: 34.4%;
+    top: 15%;
+    align-self: center;
+    box-shadow: 0px 10px 20px rgba(15,23,67,0.05);
+    border-radius: 12px;
+    padding: 38px 48px 24px;
+}
+.container h1{
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: none;
+    color: #3A57FA;
+    text-align: center;
+    letter-spacing: 0;
+    margin: 0;
+    line-height: 1;
+}
+.container-text{
+    font-size: 16px;
+    letter-spacing: 0.24px;
+    color: #2A2C33;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.container-text p a{
+    color: #3a57fa;
+    text-decoration: none;
+    font-family: proxima-nova;
+}
+.input-group{
+    border: 0;
+    padding-bottom: 18px;
+    margin-bottom: 0;
+}
+.label-input{
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.24px;
+    color: #2A2C33;
+}
+.input-group .input-style{
+    border-color: #9B9DA7;
+    background: none;
+    background-color: #F6F8FC;
+    border-radius: 8px;
+    height: 44px;
+    border: 1px solid #B9BECE;
+    font-size: 14px;
+    line-height: 22px;
+    color: #2A2C33;
+    width: 100%;
+    padding: 4px 16px 4px;
+    letter-spacing: 0.28px;
+    outline: none;
+}
+.input-group .input-style:focus{
+    border-color: #237eee;
+}
+.check-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#userdata{
+    width: 20px;
+    height: 15px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+}
+.check-container p a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.28px;
+    color: #253740;
+    text-decoration: none;
+}
+.common-btn{
+    overflow: auto;
+
+}
+.common-btn button{
+    outline: none;
+    width: auto;
+    padding: 0 24px;
+    height: 36px;
+    background-color: #3A57FA;
+    border-radius: 25px;
+    color: #fff;
+    letter-spacing: 0.28px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    float: right;
+    margin: 0 0 20px;
+    line-height: 33px;
+    cursor: pointer;
+}
+.common-btn button:hover{
+    background-color: #3447bf;
+}
+.other-login{
+    text-align: center;
+}
+.other-login p{
+    color: #B9BECE;
+    background: #fff;
+    padding: 0 18px;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: capitalize;
+    position: relative;
+}
+.other-login p::before{
+    content: "";
+    width: 140px;
+    height: 1px;
+    background-color: #B9BECE;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+}
+.other-login p::after{
+    content: "";
+    width: 140px;
+    height: 1px;
+    background-color: #B9BECE;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+}
+.social-medai span , .more-container span{
+    display: inline-block;
+    font-size: 19px;
+    width: 20px;
+    margin: 0 9px 0 0;
+    height: 20px;
+    background-size: 100%;
+}
+.social-medai p{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: #9B9DA7;
+    margin-top: 0;
+}
+.social-medai{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.google , .facebook , .Office , .Clever , .linkedin{
+    padding: 0 13px;
+    height: 40px;
+    border: 2px solid #B9BECE;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 6px 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #fff;
+    width: auto;
+    box-shadow: none;
+    cursor: pointer;
+}
+.google:hover , .facebook:hover , .Office:hover , .Clever:hover , .linkedin:hover{
+    background-color: #eeeeee;
+}
+.google-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/Ggl.svg);
+}
+.facebook-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/Fb.svg);
+}
+.Office-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/ms-office.svg);
+}
+.Clever-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/clever.svg); 
+}
+.linkedin-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/Lnkdn.svg); 
+}
+.more-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.show-more{
+    width: 80px;
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    color: #9B9DA7;
+    margin:auto;
+    cursor: pointer;
+    font-weight: 700;
+    padding-right: 10px;
+    margin-top: 15px;
+}
+.show-more h4:hover{
+    color: #253740;
+}
+.more-container{
+    display: none;
+}
+.datacontainer{
+    display: none;
+}
