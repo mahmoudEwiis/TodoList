@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>signUp Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign up to Powtoon</h1>
+        <div class="container-text">
+            <p>Already have an account? <a href="index.html"> Log In</a> </p>
+        </div>
+        <div class="input-group">
+            <label class="label-input" for="userEmailInp">Email address</label>
+            <input class="input-style" id="userEmailInp" type="text" placeholder="example@xyz.com" name="useremail" required>
+            <small id="smallElement" style="color: red;"></small>
+        </div>
+        <div id="datacontainer" class="datacontainer">
+            <div class="input-group">
+                <label class="label-input" for="userFnameInp">First name</label>
+                <input class="input-style" id="userFnameInp" type="text"  name="userFname" required>
+                <small id="smallElementFname" style="color: red;"></small>
+            </div>
+            <div class="input-group">
+                <label class="label-input" for="userLnameInp">Last name <small style="color:#B9BECE;">(optional)</small> </label>
+                <input class="input-style" id="userLnameInp" type="text"  name="userlname" >
+                <small id="smallElementLname" style="color: red;"></small>
+            </div>
+            <div class="input-group">
+                <label class="label-input" for="userpasswordInp">Password</label>
+                <input class="input-style" id="userpasswordInp" type="text" name="userpassword" placeholder="Password must contain at least 8 characters" required>
+                <small id="smallElementpassword" style="color: red;"></small>
+            </div>
+        </div>
+        <div class="common-btn">
+            <button id="Continuebtn">Continue</button>
+        </div>
+        <div class="other-login">
+            <p>Or signup with</p>
+        </div>
+        <div class="social-medai">
+            <div class="google">
+                <span class="google-img"></span> 
+                <p>google</p>
+            </div>
+            <div class="facebook">
+                <span class="facebook-img"></span> 
+                <p> facebook</p>
+            </div>
+            <div class="Office">
+                <span class="Office-img"></span>
+                <p> Office 365</p>
+            </div>
+        </div>
+        <div id="more-social-medai" class="more-container">
+            <div class="Clever" style="margin-right: 15px;">
+                <span class="Clever-img"></span> 
+                <p>Clever</p>
+            </div>
+            <div class="linkedin">
+                <span class="linkedin-img"></span> 
+                <p>linkedin</p>
+            </div> 
+        </div>
+        <div class="show-more">
+            <h4 id="show">More <i class="fas fa-chevron-down"></i></h4>
+        </div>
+    </div>
+    <script src="js/signuppage.js"></script>
+</body>
+</html>

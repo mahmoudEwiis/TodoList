@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/todolistpage.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <section class="home">
+        <h1 id="user" >Hi User!</h1>
+        <p>What would you like to do today?</p>
+        <div class="container">
+            <div class="input-group">
+                <input class="input-style" id="userworksInp" type="text" placeholder="Write what you want to do" name="userworks" required>
+            </div>
+            <div class="common-btn">
+                <button id="addBtn">Add</button>
+            </div>
+        </div>
+
+        <div id="tabelcontainer">
+            <table >
+                <caption>My daily work</caption>
+                <thead>
+                    <tr>
+                        <th>Task Title</th>
+                        <th style="text-align: center;">Remove</th>
+                        <th  style="text-align: center;">Edit</th>
+                        <th  style="text-align: center;">Done!</th>
+                    </tr>
+                </thead>
+                <tbody id="mylist">
+
+                </tbody>
+            </table>               
+         </div>
+    </section>
+    <section id="layer">
+        <div class="layercontainer">
+            <h1>Edit Task Title</h1>
+            <div class="input-group">
+                <input class="input-style" id="edituserworksInp" type="text" placeholder="Write what you want to do" name="edituserworks" required>
+            </div>
+            <div class="common-btn">
+                <button id="CancelBtn">Cancel</button>
+            </div>
+            <div class="common-btn">
+                <button id="ChangeBtn" >Change</button>
+            </div>
+
+        </div>
+    </section>
+    <div class="logout">
+        <div class="common-btn">
+            <button id="logoutBtn" >log out</button>
+        </div> 
+    </div>
+    <script src="js/todolistpage.js"></script>
+</body>
+</html>
